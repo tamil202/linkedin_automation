@@ -1,0 +1,34 @@
+✦ What is Big-O(log n)?
+
+Big-O(log n) represents algorithms whose time complexity grows in proportion to the logarithm of the input size.
+Instead of checking every element, the dataset is repeatedly reduced (often halved) until the solution is found.
+
+✦ Purpose
+
+➤ Optimize performance and reduce unnecessary operations
+➤ Scale efficiently with very large datasets
+➤ Deliver faster solutions compared to linear approaches
+
+✦ Use Cases
+
+➤ Searching in sorted datasets (Binary Search)
+➤ Balanced tree operations (BST, AVL, Red-Black Trees)
+➤ Heap insertion and deletion
+➤ Divide & Conquer algorithms (merge sort, quicksort in best/average cases)
+
+✦ Professional Developer Perspective
+
+➤ Efficiency over simplicity – log n solutions shine when datasets grow large
+➤ Structured data required – most log n methods assume sorted or organized inputs
+➤ Impact of scale – small datasets may blur the difference, but at millions of records, log n means milliseconds vs seconds
+➤ Pattern recognition – divide-and-conquer thinking naturally unlocks log n solutions
+
+✦ Attached Examples
+
+➤ Below, I’ve added supporting images for visualization
+➤ Illustrated with JavaScript search approaches (linear vs binary search)
+➤ Real-world comparisons:
+  • O(n) → Checking every item in a list, one by one
+  • O(log n) → Splitting the search space in half repeatedly until the target is found
+
+#BigO #TimeComplexity #JavaScript #WebDevelopment #SoftwareEngineering #SystemDesign #ProgrammingConcepts #Scalability #Algorithms #TechContent #FullStackDevelopment
